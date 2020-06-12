@@ -5,4 +5,4 @@ spring:
     url: jdbc:mysql://localhost:3306/loja?useTimezone=true&serverTimezone=America/Sao_Paulo
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
